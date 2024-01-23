@@ -1,0 +1,307 @@
+body{
+  background: #fcfc6c url("images/banana.png");
+  background-size: 5%;
+  background-attachment: fixed;
+  color: black;
+}
+
+html{
+  user-select: none;
+}
+
+.dark-mode {
+  background: black url("images/darkbanana.png") !important;
+  background-size: 5% !important;
+  background-attachment: fixed !important;
+  color: ghostwhite !important;
+}
+
+topnavbar{
+  background: #999;
+  background-size: 100%;
+  color:#000;
+  outline: #999 solid 0px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7.5%;
+  z-index: 999999999;
+}
+
+button{
+  background:#000;
+  border-color:#000;
+  border-width:1;
+  color:#fff;
+  text-shadow: none;
+  padding: 15px 32px;
+  border-radius: 8px;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+button:hover{
+  background:#222;
+  border-color:#222;
+  border-width:1;
+  color:#fff;
+  text-shadow: none;
+  padding: 15px 32px;
+  border-radius: 8px;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+topnavbar > button{
+  z-index: 2 !important;
+  background:#000;
+  border-color:#000;
+  color:#fff;
+  text-shadow: none;
+  padding: 0.5% 0.5%;
+  border-radius: 8px;
+  width: 5%;
+  height: 100%;
+  font-size: 60%;
+  top: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+topnavbar > button:hover{
+  z-index: 2 !important;
+  background:#222;
+  border-color:#222;
+  color:#fff;
+  text-shadow: none;
+  padding: 0.5% 0.5%;
+  border-radius: 8px;
+  width: 5%;
+  height: 100%;
+  font-size: 60%;
+  top: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.disable{
+  display:none
+}
+
+.hide{
+  visibility:hidden
+}
+
+.cookiebackground{
+  background-image: url("images/perfectCookie.png") !important;
+  background-size: 150%!important;
+  background-attachment: scroll!important;
+  background-position: 0 -100%!important;
+  color:#fff !important;
+}
+
+.poslocked {
+    position: fixed;
+}
+
+.posstick {
+    position: sticky;
+}
+
+#wingdings {
+   font-family:Wingdings;
+}
+
+.pointer {cursor: pointer;}
+
+#sans{
+  left: 27.5%;
+  top: 0px;
+  width: auto;
+  height: 100%;
+  z-index: 9;
+}
+
+#ctxmenu {
+  position: fixed;
+  background: black;
+  color: ghostwhite;
+  border: 0 black solid;
+  font-size:80%;
+  z-index: 999999999999999;
+}
+
+#ctxmenu > b {
+  display: block;
+  padding: 2.5 0.5rem;
+  cursor: pointer;
+  margin: 5
+}
+
+#ctxmenu > t {
+  color: ghostwhite;
+  background: #222;
+  display: block;
+  padding: 2.5 0.5rem;
+  margin: 5;
+  font-weight: bold;
+}
+
+#ctxmenu > b:hover {
+  background: ghostwhite;
+  color: black;
+}
+
+#Alert {
+  position: fixed;
+  background: black;
+  color: ghostwhite;
+  border: 0 black solid;
+  font-size:80%;
+  z-index: 9;
+	top: 50%;
+	left: 50%;
+}
+
+#Alert > b {
+  display: block;
+  padding: 2.5 0.5rem;
+  cursor: pointer;
+  margin: 5
+}
+
+#Alert > t {
+  color: ghostwhite;
+  background: #222;
+  display: block;
+  padding: 2.5 0.5rem;
+  margin: 5;
+  font-weight: bold;
+}
+
+#Alert > b:hover {
+  background: ghostwhite;
+  color: black;
+}
+
+.show{
+  animation-name: showanim;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+.invisable{
+  background: #0000000f !important;
+  color: #0000000f !important;
+  outline: #0000000f solid 0px !important;
+  border-color:#0000000f !important;
+  cursor: default !important;
+  padding: 0px 0px !important;
+}
+
+.verysmall{
+  width: 1 !important;
+  height: 1 !important;
+  border-width:1 !important;
+  font-size:1 !important;
+}
+
+@keyframes showanim {
+  0% {opacity:0}
+  100% {opacity:1}
+}
+
+topleft{
+	top: 8% !important;
+	left: 0 !important;
+}
+
+bottomleft{
+	bottom: 0 !important;
+	left: 0 !important;
+}
+
+topright{
+	top: 16% !important;
+	right: 0 !important;
+}
+
+bottomright{
+	bottom: 0 !important;
+	right: 0 !important;
+}
+
+.ui{
+	z-index: 999999999;
+	position: fixed;
+  background: #999999;
+  color: black;
+  border: 1 black solid;
+  font-size:80%;
+	padding: 20px;
+	width: auto !important;
+  height: auto !important;
+	border-radius: 9999999px 9999999px 0px 0px;
+}
+
+.left{
+	left: 0 !important;
+}
+
+.bottom{
+	bottom: 0 !important;
+}
+.right{
+	right: 0 !important;
+}
+
+.top{
+	top: 0 !important;
+}
+
+.top{
+	z-index: 99999999999!important;
+}
+
+#time{
+	z-index: 9999999999;
+	position: fixed;
+  background: #222222;
+  color: ghostwhite;
+  border: 10px black solid;
+  font-size:100%;
+	padding: 5px;
+	width: auto !important;
+  height: auto !important;
+	border-radius: 100px / 10px;
+	border-color: black;
+	top: 8% !important;
+}
+
+#keysdown{
+	z-index: 999999999;
+  background: black;
+  color: ghostwhite;
+  font-size:80%;
+	width: auto !important;
+  height: auto !important;
+}
+
+#debuginfo{
+	z-index: 9999999999;
+	position: fixed;
+  background: black;
+  color: #009900;
+  border: 10px black solid;
+  font-size: 10px;
+	padding: 5px;
+	width: auto !important;
+  height: auto !important;
+	border-radius: 0px;
+	border-color: black;
+	top: 25% !important;
+	right: 9999% !important;
+}
